@@ -1,0 +1,41 @@
+
+{
+    "types": [
+        {
+            "id": 0,
+            "category": 0,
+            "name": "personal",
+            "description": "Fireworks intended for recreational use during holiday celebrations"
+        },
+        {
+            "id": 1,
+            "category": 0,
+            "name": "indoor",
+            "description": "giant light"
+        },
+        {
+            "id": 2,
+            "category": 0,
+            "name": "outdoor",
+            "description": "small Fireworks"
+        },
+         {
+            "id": 3,
+            "category": 1,
+            "name": "lethal",
+            "description": "be aware of what you wish for"
+        },
+        {
+            "id": 4,
+            "category": 1,
+            "name": "cuzzy",
+            "description": "catch me if you can"
+        },
+        {
+            "id": 5,
+            "category": 1,
+            "name": "defensive",
+            "description": "try me"
+        }
+    ]
+}

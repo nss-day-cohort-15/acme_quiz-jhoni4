@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "type": 0,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        {
+            "id": 1,
+            "type": 0,
+            "name": "willow",
+            "description": "can blow up the whole town"
+        },
+         {
+            "id": 2,
+            "type": 1,
+            "name": "V21",
+            "description": "i didnt try it "
+        },
+         {
+            "id": 3,
+            "type": 1,
+            "name": "piccoke",
+            "description": "so nice and testy"
+        },
+         {
+            "id": 4,
+            "type": 2,
+            "name": "mortar",
+            "description": "dont even think about"
+        },
+         {
+            "id": 5,
+            "type": 2,
+            "name": "nancy bombs",
+            "description": "colorful smoke"
+        },
+         {
+            "id": 6,
+            "type": 3,
+            "name": "ballistics",
+            "description": "once you try it"
+        },
+        {
+            "id": 7,
+            "type": 3,
+            "name": "09HMX",
+            "description": "you wanna die "
+        },
+         {
+            "id": 8,
+            "type": 4,
+            "name": "Mosofire",
+            "description": "hell caller"
+        },
+         {
+            "id": 9,
+            "type": 4,
+            "name": "grenades",
+            "description": "simply a bomb"
+        },
+         {
+            "id": 10,
+            "type": 5,
+            "name": "PUPE-50",
+            "description": "American power"
+        },
+         {
+            "id": 11,
+            "type": 5,
+            "name": "DD33",
+            "description": "you just push the trigger."
+        }
+    ]
+}
