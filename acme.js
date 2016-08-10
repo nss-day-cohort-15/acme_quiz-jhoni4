@@ -2,14 +2,16 @@ var products = [];
 var types = [];
 var categories = [];
 
+
+
 $(document).ready(function() {
 
     var loadCategories = function() {
         return new Promise((resolve, reject) => {
             $.ajax({ url: "categories.json"
-            }).done(function(data) {
+            }).done((data) => {
                 resolve(data.categories);
-            }).fail(function(xhr, status, error) {
+            }).fail((xhr, status, error) => {
                 reject(error);
             });
         })
@@ -19,9 +21,9 @@ $(document).ready(function() {
         return new Promise((resolve, reject) => {
             $.ajax({ url: "types.json",
                 data: cb1
-            }).done(function(data) {
+            }).done((data) => {
                 resolve(data.types);
-            }).fail(function(xhr, status, error) {
+            }).fail((xhr, status, error) => {
                 reject(error);
             });
         })
@@ -31,26 +33,39 @@ $(document).ready(function() {
         return new Promise((resolve, reject) => {
             $.ajax({ url: "products.json",
                 data: cb2
-            }).done(function(data) {
+            }).done((data) => {
                 resolve(data.products);
-            }).fail(function(xhr, status, error) {
+            }).fail((xhr, status, error) => {
                 reject(error);
             });
         })
     };
 
     loadCategories()
-        .then(function(data1) {
+        .then((data1) => {
             categories = data1;
+            displayCategories(categories);
             return loadTypes(data1);
         })
-        .then(function(data2) {
+        .then((data2) => {
             types = data2;
             return loadProducts(data2);
         })
-        .then(function(data3) {
+        .then((data3) => {
             products = data3;
         })
 
-});
 
+  var menu = $('#dropDown1');
+
+    function displayCategories(data1) {
+        data1.forEach(function(categories) {
+            console.log("categories.name",categories.name);
+            // menu = `<option value="${categories.id}" text="${categories.name}"></option>`
+            $('<option />', {value: categories.id,
+                             text: categories.name}).appendTo(menu);
+
+        }) //append() to is different from appendTo()
+
+    };
+});

@@ -14,7 +14,7 @@
         },
          {
             "id": 2,
-            "type": 1,
+            "type": 0,
             "name": "V21",
             "description": "i didnt try it "
         },
@@ -26,50 +26,86 @@
         },
          {
             "id": 4,
-            "type": 2,
+            "type": 1,
             "name": "mortar",
             "description": "dont even think about"
         },
          {
             "id": 5,
-            "type": 2,
+            "type": 1,
             "name": "nancy bombs",
             "description": "colorful smoke"
         },
          {
             "id": 6,
-            "type": 3,
+            "type": 2,
             "name": "ballistics",
             "description": "once you try it"
         },
         {
             "id": 7,
-            "type": 3,
+            "type": 2,
             "name": "09HMX",
             "description": "you wanna die "
         },
          {
             "id": 8,
-            "type": 4,
+            "type": 2,
             "name": "Mosofire",
             "description": "hell caller"
         },
          {
             "id": 9,
-            "type": 4,
-            "name": "grenades",
+            "type": 3,
+            "name": "Frenades",
             "description": "simply a bomb"
         },
          {
             "id": 10,
-            "type": 5,
-            "name": "PUPE-50",
+            "type": 3,
+            "name": "KPUPE-50",
             "description": "American power"
         },
          {
             "id": 11,
-            "type": 5,
+            "type": 3,
+            "name": "ODD33",
+            "description": "you just push the trigger."
+        },
+         {
+            "id": 12,
+            "type": 4,
+            "name": "QPUPE-50",
+            "description": "American power"
+        },
+         {
+            "id": 13,
+            "type": 4,
             "name": "DD33",
+            "description": "you just push the trigger."
+        },
+         {
+            "id": 14,
+            "type": 4,
+            "name": "JPUPE-50",
+            "description": "American power"
+        },
+         {
+            "id": 15,
+            "type": 5,
+            "name": "TDD33",
+            "description": "kind ofjust push the trigger."
+        },
+         {
+            "id": 16,
+            "type": 5,
+            "name": "LPUPE-250",
+            "description": "The American power"
+        },
+         {
+            "id": 17,
+            "type": 5,
+            "name": "DD3563",
             "description": "you just push the trigger."
         }
     ]
