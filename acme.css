@@ -9,3 +9,11 @@ nav {
   padding: 5px;
   color: white;
 }
+a {
+  float: right;
+}
+
+#img {
+  height: 80px;
+  opacity: 0.2;
+}

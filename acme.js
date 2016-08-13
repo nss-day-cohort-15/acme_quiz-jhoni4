@@ -53,6 +53,7 @@ $(document).ready(function() {
         })
         .then((data3) => {
             products = data3;
+            displayProduct(data3);
         })
 
 
@@ -60,12 +61,36 @@ $(document).ready(function() {
 
     function displayCategories(data1) {
         data1.forEach(function(categories) {
-            console.log("categories.name",categories.name);
             // menu = `<option value="${categories.id}" text="${categories.name}"></option>`
             $('<option />', {value: categories.id,
                              text: categories.name}).appendTo(menu);
-
         }) //append() to is different from appendTo()
+
+    };
+        $("select").on("change", function(event) {
+        var currentChoice = this.value;
+        displayProduct(currentChoice);
+
+        })
+
+    function displayProduct(picked) {
+        $("#output").empty();
+            products.forEach(function(products) {
+              var currentTypeId = products.type;
+              var currentCategoryId = types[currentTypeId].category;
+              if(currentCategoryId == picked){
+                var myProduct =
+                        ` <tr>
+                            <th scope="row">${(products.id)+1}</th>
+                            <td>${products.name}</td>
+                            <td>${types[products.type].name}</td>
+                            <td>${products.description} <a href="#">Read more</a> </td>
+                          </
+                        `;
+                  $("#output").append(myProduct);
+              }
+
+            })
 
     };
 });
