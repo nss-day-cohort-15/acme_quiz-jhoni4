@@ -67,11 +67,12 @@ $(document).ready(function() {
         }) //append() to is different from appendTo()
 
     };
-        $("select").on("change", function(event) {
+    $("select").on("change", function(event) {
         var currentChoice = this.value;
+        console.log("this", $(this).find("option:selected").text())
         displayProduct(currentChoice);
 
-        })
+    })
 
     function displayProduct(picked) {
         $("#output").empty();
@@ -81,7 +82,7 @@ $(document).ready(function() {
               if(currentCategoryId == picked){
                 var myProduct =
                         ` <tr>
-                            <th scope="row">${(products.id)+1}</th>
+                            <th scope="row">${"."}</th>
                             <td>${products.name}</td>
                             <td>${types[products.type].name}</td>
                             <td>${products.description} <a href="#">Read more</a> </td>

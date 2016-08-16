@@ -13,7 +13,9 @@ a {
   float: right;
 }
 
-#img {
-  height: 80px;
-  opacity: 0.2;
+#pic {
+  background: url("fire.jpg") no-repeat ;
+}
+.table {
+  font-size: 1.2em;
 }
