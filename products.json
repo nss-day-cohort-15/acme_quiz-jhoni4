@@ -1,0 +1,112 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "type": 0,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        {
+            "id": 1,
+            "type": 0,
+            "name": "willow",
+            "description": "can blow up the whole town"
+        },
+         {
+            "id": 2,
+            "type": 0,
+            "name": "V21",
+            "description": "i didnt try it "
+        },
+         {
+            "id": 3,
+            "type": 1,
+            "name": "piccoke",
+            "description": "so nice and testy"
+        },
+         {
+            "id": 4,
+            "type": 1,
+            "name": "mortar",
+            "description": "dont even think about"
+        },
+         {
+            "id": 5,
+            "type": 1,
+            "name": "nancy bombs",
+            "description": "colorful smoke"
+        },
+         {
+            "id": 6,
+            "type": 2,
+            "name": "ballistics",
+            "description": "once you try it"
+        },
+        {
+            "id": 7,
+            "type": 2,
+            "name": "09HMX",
+            "description": "you wanna die "
+        },
+         {
+            "id": 8,
+            "type": 2,
+            "name": "Mosofire",
+            "description": "A proprietary, pumpable explosive and delivery system used for underground development and similar"
+        },
+         {
+            "id": 9,
+            "type": 3,
+            "name": "Frenades",
+            "description": "simply a bomb"
+        },
+         {
+            "id": 10,
+            "type": 3,
+            "name": "KPUPE-50",
+            "description": "Expansnow™ is a very low density ANFO (Ammonium Nitrate Fuel Oil) product "
+        },
+         {
+            "id": 11,
+            "type": 3,
+            "name": "ODD33",
+            "description": "you just push the trigger."
+        },
+         {
+            "id": 12,
+            "type": 4,
+            "name": "QPUPE-50",
+            "description": "American power"
+        },
+         {
+            "id": 13,
+            "type": 4,
+            "name": "DD33",
+            "description": "products are innovative watergel explosives that combine proven watergel explosive tech."
+        },
+         {
+            "id": 14,
+            "type": 4,
+            "name": "JPUPE-50",
+            "description": "A proprietary, pumpable explosive and delivery system used for underground development"
+        },
+         {
+            "id": 15,
+            "type": 5,
+            "name": "TDD33",
+            "description": "Seismic detonator is ideally suited for geophysical exploration work."
+        },
+         {
+            "id": 16,
+            "type": 5,
+            "name": "LPUPE-250",
+            "description": "These non electric blast initiation systems for sequential blasting in underground stoping"
+        },
+         {
+            "id": 17,
+            "type": 5,
+            "name": "DD3563",
+            "description": "Heavy ANFO blends (AN EmexTM) are prepared by mixing Matrix."
+        }
+    ]
+}
