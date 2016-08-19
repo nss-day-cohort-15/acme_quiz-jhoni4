@@ -1,2 +1,9 @@
+
+**/.*
 node_modules
 bower_components
+src/lib
+test
+tests
+lib/
+.DS_Store
